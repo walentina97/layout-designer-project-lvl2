@@ -1,0 +1,40 @@
+@media screen and (min-width: 1240px) and (max-width: 417px) {
+  .header-image-banner {
+    background-image: url("../images/banner.png");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .main-header {
+    position: absolute;
+
+    padding-top: 25px;
+  }
+
+  .main-header-form {
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+
+  .subscription-form {
+    max-width: 570px;
+  }
+
+  .name .email {
+    min-width: 270px;
+    min-height: 50px;
+
+    padding-left: 20px;
+
+    margin-bottom: 1.5rem;
+
+    border: 2px solid $dark-gray;
+  }
+
+  .btn-green {
+    row-gap: 20px;
+    column-gap: 30px;
+
+    border-radius: 5px;
+  }
+}
