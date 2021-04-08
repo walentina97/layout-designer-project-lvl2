@@ -1,0 +1,27 @@
+.margin-top-18 {
+  margin-top: 18px;
+}
+
+.discography-item img {
+  display: block;
+}
+
+.text-transform-none {
+  text-transform: none;
+}
+@media (max-width: 414px) {
+  .discography-item img {
+    width: 137px;
+    height: 137px;
+  }
+
+  .discography-item {
+    flex-grow: 0;
+    flex-basis: 0;
+  }
+
+  .discography-item:nth-child(2) {
+    flex-grow: 0;
+    flex-basis: auto;
+  }
+}

@@ -1,0 +1,40 @@
+.mobile-app {
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.margin-top-btm-48 {
+  margin-top: 0px;
+  margin-bottom: 48px;
+}
+
+.flex-cont {
+  display: flex;
+  column-gap: 144px;
+}
+
+.margin-btm-0 {
+  margin-bottom: 0;
+}
+
+.btn-border-radius {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 32px;
+  border: none;
+
+  text-transform: none;
+}
+
+@media (max-width: 414px) {
+  .flex-cont {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .padding-btm-100 {
+    padding-bottom: 100px;
+  }
+}

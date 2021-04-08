@@ -1,0 +1,113 @@
+.flex-justify {
+  display: flex;
+  column-gap: 50px;
+}
+
+.margin-top-btm {
+  padding-bottom: 50px;
+  padding-top: 100px;
+  margin: 0;
+}
+
+.bg-free {
+  width: 366px;
+  background-image: url("../images/subscribe_1.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-standart {
+  width: 366px;
+  background-image: url("../images/subscribe_2.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-premium {
+  width: 366px;
+  background-image: url("../images/subscribe_3.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.pricing-item {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.pricing-value {
+  line-height: 1em;
+}
+
+.btn-border {
+  padding-left: 115px;
+  padding-right: 115px;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.f-size-24 {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 45px;
+}
+
+.f-size-64 {
+  font-size: 64px;
+  font-weight: normal;
+}
+
+.f-size-32 {
+  font-size: 32px;
+  padding-left: 16px;
+  text-transform: uppercase;
+}
+
+.padding-btm-200 {
+  margin-bottom: 0px;
+  margin-top: 21px;
+  padding-bottom: 180px;
+}
+
+.padding-btm-24 {
+  padding-bottom: 24px;
+}
+
+.padding-top-64 {
+  padding-top: 64px;
+  padding-bottom: 65px;
+}
+
+.margin-top-40 {
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 414px) {
+  .flex-justify {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+  }
+
+  .bg-free,
+  .bg-standart,
+  .bg-premium {
+    width: 334px;
+  }
+
+  .f-size-24 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .padding-btm-200 {
+    margin-top: 15px;
+  }
+}

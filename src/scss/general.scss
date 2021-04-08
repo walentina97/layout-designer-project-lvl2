@@ -1,4 +1,9 @@
-@media screen and (min-width: 1240px) {
+@media (min-width: 1240px) {
+  .content {
+    max-width: 1200px;
+    margin: auto;
+  }
+
   .title {
     font-size: 60px;
     line-height: 90px;
@@ -11,24 +16,73 @@
     font-weight: bold;
     text-transform: uppercase;
   }
-  .third-title {
-    font-size: 18px;
-    line-height: 27px;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
 }
-@media only screen and (max-width: 417px) {
+@media (max-width: 414px) {
+  .content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .title {
     font-size: 30px;
     line-height: 45px;
     font-weight: bold;
     text-transform: uppercase;
   }
-  .subtitle .third-title {
+  .subtitle {
     font-size: 18px;
     line-height: 27px;
     font-weight: bold;
     text-transform: uppercase;
   }
+}
+
+.third-title {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.color-white {
+  color: $white;
+}
+
+.color-dark-gray {
+  color: $dark-gray;
+}
+
+.color-gray {
+  color: $gray;
+}
+
+.color-orange {
+  color: $orange;
+}
+
+.button-purple {
+  background-color: $purple;
+}
+
+.button-red {
+  background-color: $red;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.f-size-12 {
+  font-size: 12.8px;
+  line-height: 19px;
+}
+
+.adwantages {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.padding-top-100 {
+  margin-top: 0;
+
+  padding-top: 100px;
 }

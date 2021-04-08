@@ -1,0 +1,26 @@
+.popular-track {
+  display: flex;
+  flex: 1 0 47%;
+}
+
+.track-info {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 25px;
+  column-gap: 50px;
+}
+
+.items-center {
+  padding-left: 15px;
+  align-items: center;
+}
+
+.transform-uppercase {
+  text-transform: uppercase;
+}
