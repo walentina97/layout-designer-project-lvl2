@@ -94,7 +94,8 @@ body {
 
 .f-size-12 {
   font-size: 12.8px;
-  line-height: 19px;
+  line-height: 19.2px;
+  text-transform: uppercase;
 }
 
 .adwantages {
@@ -126,9 +127,9 @@ body {
 }
 
 .similar-info p {
+  text-align: center;
   font-size: 16px;
   line-height: 24px;
-  text-align: center;
 }
 
 .margin-top-100 {
@@ -136,8 +137,8 @@ body {
 }
 
 .fans p {
-  color: #e0e0e0;
   margin: 0;
+  color: #e0e0e0;
 }
 
 @media (min-width: 1240px) {
@@ -182,7 +183,7 @@ body {
   background-size: cover;
 }
 
-.header-image-harket {
+.header-image-artist {
   width: 100%;
   background-image: url("../images/Morten_Harket.png");
   background-position: center;
@@ -294,7 +295,7 @@ body {
 
 @media (max-width: 414px) {
   .padding-top-btm {
-    padding-top: 55px;
+    padding-top: 200px;
     padding-bottom: 200px;
   }
 
@@ -346,7 +347,9 @@ body {
 
   .f-size-30 {
     font-size: 16px;
-    line-height: 26px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
     margin-top: 45px;
     margin-bottom: 0px;
   }
@@ -458,9 +461,10 @@ body {
 }
 
 .f-size-24 {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 24px;
-  line-height: 45px;
+  line-height: 36px;
+  text-transform: uppercase;
 }
 
 .f-size-64 {
@@ -615,8 +619,8 @@ hr {
 }
 
 .footer-copyright {
-  padding-bottom: 2rem;
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .padding-btm-16 {
