@@ -1,26 +1,40 @@
 .popular-track {
   display: flex;
-  flex: 1 0 47%;
 }
 
 .track-info {
   display: flex;
-  justify-content: space-between;
   flex-grow: 1;
+  justify-content: space-between;
 }
 
-.flex-wrap {
-  display: flex;
-  flex-wrap: wrap;
+.grid-template-rows-columns {
+  display: grid;
+  grid-template-rows: 50px;
+  grid-template-columns: 551px 551px;
+
   row-gap: 25px;
+
   column-gap: 50px;
 }
 
 .items-center {
-  padding-left: 15px;
   align-items: center;
+
+  padding-left: 15px;
 }
 
 .transform-uppercase {
   text-transform: uppercase;
+}
+
+@media (max-width: 414px) {
+  .grid-template-rows-columns {
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 374px;
+
+    row-gap: 25px;
+    column-gap: 50px;
+  }
 }

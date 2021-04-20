@@ -1,7 +1,8 @@
 @media (max-width: 414px) {
-  .display-flex-reverse {
-    display: flex;
-    flex-direction: column-reverse;
+  .display-grid-columns {
+    display: grid;
+    grid-template-columns: auto;
+
     column-gap: 50px;
   }
 
@@ -11,35 +12,38 @@
   }
 
   .f-size-30 {
+    margin-top: 45px;
+    margin-bottom: 0;
+
+    font-weight: 400;
+
     font-size: 16px;
     line-height: 24px;
-    font-weight: 400;
-    text-transform: capitalize;
 
-    margin-top: 45px;
-    margin-bottom: 0px;
+    text-transform: capitalize;
   }
+
   .margin-btm-50 {
     margin-bottom: 50px;
   }
 }
 
 @media (min-width: 1240px) {
-  .display-flex {
-    display: flex;
-    column-gap: 50px;
-    margin-bottom: 65px;
-  }
+  .grid-gap {
+    display: grid;
+    grid-template-columns: 575px 575px;
 
-  .news-item {
-    display: flex;
+    margin-bottom: 65px;
+
+    column-gap: 50px;
   }
 
   .f-size-30 {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: normal;
     font-size: 30px;
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
     line-height: 45px;
     text-transform: capitalize;
   }
@@ -55,12 +59,16 @@
 
 .btn-link {
   display: inline-block;
-  padding-top: 16px;
-  padding-left: 30px;
-  padding-bottom: 16px;
-  padding-right: 30px;
-  border: 1px solid $dark-gray;
+
   box-sizing: border-box;
+
+  padding-top: 16px;
+  padding-right: 30px;
+
+  padding-bottom: 16px;
+  padding-left: 30px;
+
+  border: 1px solid $dark-gray;
   border-radius: 5px;
 }
 
@@ -69,7 +77,11 @@
 }
 
 .margin-btn-48 {
-  display: flex;
-  column-gap: 16px;
+  display: grid;
+  grid-template-rows: 19px;
+  grid-template-columns: 19px 75px 69px;
+
   margin-bottom: 48px;
+
+  column-gap: 16px;
 }

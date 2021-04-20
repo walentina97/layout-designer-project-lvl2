@@ -1,15 +1,15 @@
 .padding-top-7 {
   margin: 0;
 
-  padding-left: 15px;
   padding-top: 7px;
+  padding-left: 15px;
 }
 
 .f-size-11 {
+  font-weight: bold;
   font-size: 11px;
   line-height: 13px;
   text-transform: uppercase;
-  font-weight: bold;
 }
 
 .text-decoration-none {
@@ -23,17 +23,18 @@
 .search-form {
   width: 248px;
   height: 25px;
+
   background-color: $dark;
   border: none;
   border-radius: 50px;
 }
 
 .search-form::placeholder {
-  color: $poisk;
-
-  padding-left: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
+  padding-left: 10px;
+
+  color: $poisk;
 
   font-size: 13px;
   line-height: 15px;
@@ -57,6 +58,7 @@
     margin: 0;
     padding-top: 7px;
     padding-left: 88px;
+
     list-style: none;
   }
 
@@ -75,7 +77,8 @@
   }
 
   .site-navigation {
-    padding-left: 0px;
+    padding-left: 0;
+
     list-style: none;
   }
 
@@ -86,6 +89,7 @@
   .search-form {
     width: 374px;
     height: 25px;
+
     background-color: $dark;
     border: none;
     border-radius: 50px;

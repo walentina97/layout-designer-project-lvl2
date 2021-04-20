@@ -1,8 +1,10 @@
 hr {
   margin-top: 26px;
   margin-bottom: 8px;
-  border-top-width: 0px;
+
   border-color: $gray;
+
+  border-top-width: 0;
 }
 
 .bg-gradient {
@@ -13,6 +15,7 @@ hr {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
+
 .margin-btm-16 {
   margin-bottom: 16px;
 }
@@ -26,11 +29,11 @@ hr {
 }
 
 .f-size-16 {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
-
   font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+
   line-height: 24px;
 
   text-transform: none;
@@ -42,8 +45,11 @@ hr {
 }
 
 .social-networks {
-  display: flex;
-  padding-left: 0px;
+  display: grid;
+  grid-template-rows: 17px 17px 17px 17px;
+  grid-template-columns: 26px 26px 26px 26px;
+  padding-left: 0;
+
   column-gap: 24px;
 }
 
@@ -68,23 +74,31 @@ hr {
 }
 
 @media (min-width: 1240px) {
-  .justify-between {
-    display: flex;
-    justify-content: space-between;
+  .grid-block {
+    display: grid;
+    grid-template-columns: 100px 184px 246px 174px;
+
     column-gap: 150px;
   }
 
-  .flex-start {
-    display: flex;
-    justify-content: flex-start;
+  .grid-starting {
+    display: grid;
+    grid-template-columns: 68px 114px 36px 88px 76px;
+
     column-gap: 15px;
   }
 }
 
 @media (max-width: 414px) {
-  .flex-start {
-    display: flex;
-    flex-direction: column;
+  .grid-block {
+    display: grid;
+    row-gap: 30px;
+  }
+
+  .grid-starting {
+    display: grid;
+    grid-template-rows: 30px;
+    grid-template-columns: 0;
     row-gap: 16px;
   }
 

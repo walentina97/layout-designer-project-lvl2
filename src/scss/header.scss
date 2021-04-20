@@ -1,6 +1,8 @@
 .header-image-banner {
-  margin: 0;
   width: 100%;
+
+  margin: 0;
+
   background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
@@ -8,6 +10,7 @@
 
 .header-image-artist {
   width: 100%;
+
   background-image: url("../images/Morten_Harket.png");
   background-position: center;
   background-size: cover;
@@ -37,14 +40,18 @@
 }
 
 .subtitle-form {
-  margin-top: 0px;
+  margin-top: 0;
+
   font-size: 16px;
 }
 
 .subscription-access {
-  display: flex;
+  display: grid;
+  grid-template-rows: 50px;
+  grid-template-columns: 273px 273px;
   justify-content: center;
   padding-top: 16px;
+
   column-gap: 24px;
 }
 
@@ -53,12 +60,13 @@
   min-width: 247px;
   min-height: 46px;
 
-  padding-left: 22px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-right: 0px;
-
   margin-bottom: 1.5rem;
+
+  padding-top: 0;
+  padding-right: 0;
+
+  padding-bottom: 0;
+  padding-left: 22px;
 
   background-color: transparent;
 
@@ -73,35 +81,44 @@
 
 .btn {
   display: flex;
+  align-items: center;
   justify-content: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-family: Roboto;
+
   padding-top: 21px;
   padding-bottom: 21px;
 
-  align-items: center;
   font-weight: normal;
+
+  font-family: "Roboto", sans-serif;
+
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .btn-green {
   padding-top: 21px;
+  padding-right: 220px;
   padding-bottom: 21px;
   padding-left: 220px;
-  padding-right: 220px;
+
+  text-transform: uppercase;
+
+  background-color: $green;
+
   border: none;
   border-radius: 5px;
-  background-color: $green;
-  text-transform: uppercase;
 }
 
 .button-artist {
-  display: flex;
+  display: grid;
+  grid-template-columns: 200px 200px;
+
   column-gap: 1.5rem;
 }
 
 .button {
   width: 140px;
+
   border-radius: 5px;
 }
 
@@ -113,9 +130,10 @@
   justify-content: left;
 
   padding-top: 20px;
+  padding-right: 30px;
+
   padding-bottom: 20px;
   padding-left: 30px;
-  padding-right: 30px;
 }
 
 .align-left {
@@ -148,8 +166,9 @@
 
   .btn-green {
     width: 374px;
-    padding-left: 0;
+
     padding-right: 0;
+    padding-left: 0;
   }
 
   .name,
@@ -157,9 +176,9 @@
     width: 352px;
     height: 50px;
 
-    padding-left: 22px;
-
     margin-bottom: 1.5rem;
+
+    padding-left: 22px;
 
     background-color: transparent;
 

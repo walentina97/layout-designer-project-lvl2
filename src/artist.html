@@ -5,10 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
     <title>Портал «Music Box» - user-f78d3002dfc4edcd</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -57,16 +53,13 @@
             class="search-form"
             type="search"
             name="search"
-            value=""
             placeholder="Поиск.."
           />
         </form>
       </nav>
       <section class="padding-top-btm content">
         <h1 class="title mrgn-0 color-white">Morten Harket</h1>
-        <p class="third-title f-size-16 margin-btm-48 color-white">
-          24 875 поклонников
-        </p>
+        <p class="f-size-16 margin-btm-48 color-white">24 875 поклонников</p>
         <div class="button-artist">
           <a
             class="button-paddings btn button button-purple align-left f-size-12 margin-mobil-btm-24"
@@ -100,7 +93,7 @@
         <h2 class="subtitle margin-btm-48 padding-top-100 color-white">
           Популярные треки
         </h2>
-        <div class="flex-wrap">
+        <div class="grid-template-rows-columns">
           <div class="popular-track">
             <img
               src="images/Wild_Seed.png"
@@ -113,7 +106,9 @@
                 <h3 class="f-size-12 mrgn-0 color-white transform-uppercase">
                   Spanish Step
                 </h3>
-                <span class="f-size-12 color-gray">Morten Harket</span>
+                <span class="text-transform-none f-size-12 color-gray"
+                  >Morten Harket</span
+                >
               </section>
               <div>
                 <span class="f-size-12 color-gray">4:07</span>
@@ -132,7 +127,9 @@
                 <h3 class="f-size-12 mrgn-0 color-white transform-uppercase">
                   With You - With Me
                 </h3>
-                <span class="f-size-12 color-gray">Morten Harket</span>
+                <span class="text-transform-none f-size-12 color-gray"
+                  >Morten Harket</span
+                >
               </section>
               <div>
                 <span class="f-size-12 color-gray">3:48</span>
@@ -151,7 +148,9 @@
                 <h3 class="f-size-12 mrgn-0 color-white transform-uppercase">
                   Brother
                 </h3>
-                <span class="f-size-12 color-gray">Morten Harket</span>
+                <span class="text-transform-none f-size-12 color-gray"
+                  >Morten Harket</span
+                >
               </section>
               <div>
                 <span class="f-size-12 color-gray">5:05</span>
@@ -170,7 +169,9 @@
                 <h3 class="f-size-12 mrgn-0 color-white transform-uppercase">
                   Brodsky Tune
                 </h3>
-                <span class="f-size-12 color-gray">Morten Harket</span>
+                <span class="text-transform-none f-size-12 color-gray"
+                  >Morten Harket</span
+                >
               </section>
               <div>
                 <span class="f-size-12 color-gray">4:24</span>
@@ -189,7 +190,9 @@
                 <h3 class="f-size-12 mrgn-0 color-white transform-uppercase">
                   Darkspace
                 </h3>
-                <span class="f-size-12 color-gray">Morten Harket</span>
+                <span class="text-transform-none f-size-12 color-gray"
+                  >Morten Harket</span
+                >
               </section>
               <div>
                 <span class="f-size-12 color-gray">3:45</span>
@@ -208,7 +211,9 @@
                 <h3 class="f-size-12 mrgn-0 color-white transform-uppercase">
                   Burn Money Burn
                 </h3>
-                <span class="f-size-12 color-gray">Morten Harket</span>
+                <span class="text-transform-none f-size-12 color-gray"
+                  >Morten Harket</span
+                >
               </section>
               <div>
                 <span class="f-size-12 color-gray">3:52</span>
@@ -221,7 +226,7 @@
         <h2 class="subtitle margin-btm-48 padding-top-100 color-white">
           Дискография
         </h2>
-        <div class="flex-wrap">
+        <div class="display-grid">
           <div class="discography-item">
             <img
               src="images/Brother.png"
@@ -324,107 +329,136 @@
         <h2 class="subtitle margin-btm-48 padding-top-100 color-white">
           Похожие исполнители
         </h2>
-        <div class="justify-cntr">
-          <div class="similar-item">
-            <img src="images/A_ha.png" alt="Исполнитель A-Ha" />
-            <div class="similar-info">
-              <h3 class="third-title margin-btm-0 color-white">A-Ha</h3>
+        <div class="display-grid">
+          <div>
+            <img class="images" src="images/A_ha.png" alt="Исполнитель A-Ha" />
+            <div>
+              <h3 class="similar-info third-title margin-btm-0 color-white">
+                A-Ha
+              </h3>
             </div>
             <div class="align-center flex-center">
               <span class="f-size-16 right-5">417 086 </span>
-              <p class="f-size-16 mrgn-0">поклонников</p>
+              <span class="similar-info-sp f-size-16">поклонников</span>
             </div>
           </div>
-          <div class="similar-item">
+          <div>
             <img
+              class="images"
               src="images/Tears_for_Fears.png"
               alt="Исполнитель Tears For Fears"
             />
-            <div class="similar-info">
-              <h3 class="third-title margin-btm-0 color-white">
+            <div>
+              <h3 class="similar-info third-title margin-btm-0 color-white">
                 Tears For Fears
               </h3>
             </div>
             <div class="align-center flex-center">
               <span class="f-size-16 right-5">434 086 </span>
-              <p class="f-size-16 mrgn-0">поклонников</p>
+              <span class="similar-info-sp f-size-16">поклонников</span>
             </div>
           </div>
-          <div class="similar-item">
-            <img src="images/Duran_Duran.png" alt="Исполнитель Duran Duran" />
-            <div class="similar-info">
-              <h3 class="third-title margin-btm-0 color-white">Duran Duran</h3>
+          <div>
+            <img
+              class="images"
+              src="images/Duran_Duran.png"
+              alt="Исполнитель Duran Duran"
+            />
+            <div>
+              <h3 class="similar-info third-title margin-btm-0 color-white">
+                Duran Duran
+              </h3>
             </div>
             <div class="align-center flex-center">
               <span class="f-size-16 right-5">631 071 </span>
-              <p class="f-size-16 mrgn-0">поклонник</p>
+              <span class="similar-info-sp f-size-16">поклонник</span>
             </div>
           </div>
-          <div class="similar-item">
+          <div>
             <img
+              class="images"
               src="images/Jack_Savoretti.png"
               alt="Исполнитель Jack Savoretti"
             />
-            <div class="similar-info">
-              <h3 class="third-title margin-btm-0 color-white">
+            <div>
+              <h3 class="similar-info third-title margin-btm-0 color-white">
                 Jack Savoretti
               </h3>
             </div>
             <div class="align-center flex-center">
               <span class="f-size-16 right-5">26 857 </span>
-              <p class="f-size-16 mrgn-0">поклонников</p>
+              <span class="similar-info-sp f-size-16">поклонников</span>
             </div>
           </div>
-          <div class="similar-item">
-            <img src="images/Keane.png" alt="Исполнитель Keane" />
-            <div class="similar-info">
-              <h3 class="third-title margin-btm-0 color-white">Keane</h3>
+          <div>
+            <img
+              class="images"
+              src="images/Keane.png"
+              alt="Исполнитель Keane"
+            />
+            <div>
+              <h3 class="similar-info third-title margin-btm-0 color-white">
+                Keane
+              </h3>
             </div>
             <div class="align-center flex-center">
               <span class="f-size-16 right-5">1 704 358 </span>
-              <p class="f-size-16 mrgn-0">поклонников</p>
+              <span class="similar-info-sp f-size-16">поклонников</span>
             </div>
           </div>
-          <div class="similar-item">
+          <div>
             <img
+              class="images"
               src="images/Frank_Sinatra.png"
               alt="Исполнитель Frank Sinatra"
             />
-            <div class="similar-info">
-              <h3 class="third-title margin-btm-0 color-white">
+            <div>
+              <h3 class="similar-info third-title margin-btm-0 color-white">
                 Frank Sinatra
               </h3>
             </div>
             <div class="align-center flex-center">
               <span class="f-size-16 right-5">1 653 882 </span>
-              <p class="f-size-16 mrgn-0">поклонников</p>
+              <span class="similar-info-sp f-size-16">поклонников</span>
             </div>
           </div>
-          <div class="similar-item">
-            <img src="images/Paul_Young.png" alt="Исполнитель Paul Young" />
-            <div class="similar-info">
-              <h3 class="third-title margin-btm-0 color-white">Paul Young</h3>
+          <div>
+            <img
+              class="images"
+              src="images/Paul_Young.png"
+              alt="Исполнитель Paul Young"
+            />
+            <div>
+              <h3 class="similar-info third-title margin-btm-0 color-white">
+                Paul Young
+              </h3>
             </div>
             <div class="align-center flex-center">
               <span class="f-size-16 right-5">50 329 </span>
-              <p class="f-size-16 mrgn-0">поклонников</p>
+              <span class="similar-info-sp f-size-16">поклонников</span>
             </div>
           </div>
-          <div class="similar-item">
-            <img src="images/Chris_Rea.png" alt="Исполнитель Chris Rea" />
-            <div class="similar-info">
-              <h3 class="third-title margin-btm-0 color-white">Chris Rea</h3>
+          <div>
+            <img
+              class="images"
+              src="images/Chris_Rea.png"
+              alt="Исполнитель Chris Rea"
+            />
+            <div>
+              <h3 class="similar-info third-title margin-btm-0 color-white">
+                Chris Rea
+              </h3>
             </div>
             <div class="align-center flex-center">
               <span class="f-size-16 right-5">73 351 </span>
-              <p class="f-size-16 mrgn-0">поклонников</p>
+              <span class="similar-info-sp f-size-16">поклонников</span>
             </div>
           </div>
         </div>
       </section>
     </main>
     <footer class="bg-gradient">
-      <div class="justify-between padding-rem color-gray content">
+      <div class="grid-block padding-rem color-gray content">
         <section>
           <h2 class="third-title margin-btm-16 margin-top-13 color-white">
             О нас
@@ -518,7 +552,7 @@
       </div>
       <hr />
       <div class="content footer-copyright">
-        <div class="f-size-16 flex-start padding-btm-16">
+        <div class="f-size-16 grid-starting padding-btm-16">
           <a class="color-gray decoration-none" href="#">Магазин</a>
           <a class="color-gray decoration-none" href="#">Обслуживание</a>
           <a class="color-gray decoration-none" href="#">Блог</a>
