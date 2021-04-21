@@ -41,7 +41,7 @@
 
   .display-grid {
     display: grid;
-    grid-template-columns: 137px 137px;
+    grid-template-columns: 137px 138px;
 
     column-gap: 50px;
     row-gap: 25px;
@@ -107,4 +107,12 @@
 
 .text-transform-none {
   text-transform: none;
+}
+
+.margin-top-0 {
+  margin-top: 0;
+}
+
+.display-block {
+  display: block;
 }

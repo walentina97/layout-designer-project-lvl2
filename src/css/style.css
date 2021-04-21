@@ -59,7 +59,7 @@ body {
 
   .display-grid {
     display: grid;
-    grid-template-columns: 137px 137px;
+    grid-template-columns: 137px 138px;
     column-gap: 50px;
     row-gap: 25px;
   }
@@ -123,6 +123,14 @@ body {
   text-transform: none;
 }
 
+.margin-top-0 {
+  margin-top: 0;
+}
+
+.display-block {
+  display: block;
+}
+
 .similar-artists {
   margin-bottom: 100px;
 }
@@ -178,6 +186,10 @@ body {
   .images {
     width: 137px;
     height: 137px;
+  }
+
+  .display-block-similar {
+    display: block;
   }
 }
 .header-image-banner {
@@ -303,8 +315,13 @@ body {
 
 @media (max-width: 414px) {
   .padding-top-btm {
-    padding-top: 200px;
+    padding-top: 78px;
     padding-bottom: 200px;
+  }
+
+  .padding-top-btm-224 {
+    padding-top: 55px;
+    padding-bottom: 224px;
   }
 
   .button-artist {
@@ -385,10 +402,6 @@ body {
 
   .margin-btm-30 {
     margin-bottom: 30px;
-  }
-
-  .margin-top-0 {
-    margin-top: 0;
   }
 }
 .btn-link {
@@ -552,8 +565,6 @@ body {
 
 @media (max-width: 414px) {
   .grid-content {
-    display: grid;
-    grid-template-rows: 374px;
     grid-template-columns: auto;
   }
 
@@ -581,10 +592,6 @@ hr {
   margin-bottom: 16px;
 }
 
-.margin-top-13 {
-  margin-top: 13px;
-}
-
 .decoration-none {
   text-decoration: none;
 }
@@ -605,8 +612,9 @@ hr {
 
 .social-networks {
   display: grid;
-  grid-template-rows: 17px 17px 17px 17px;
+  grid-template-rows: 20px;
   grid-template-columns: 26px 26px 26px 26px;
+  margin-bottom: 0px;
   padding-left: 0;
   column-gap: 24px;
 }
@@ -633,8 +641,8 @@ hr {
 @media (min-width: 1240px) {
   .grid-block {
     display: grid;
-    grid-template-columns: 100px 184px 246px 174px;
-    column-gap: 150px;
+    grid-template-columns: 157px 184px 246px 174px;
+    column-gap: 140px;
   }
 
   .grid-starting {
@@ -651,8 +659,6 @@ hr {
 
   .grid-starting {
     display: grid;
-    grid-template-rows: 30px;
-    grid-template-columns: 0;
     row-gap: 16px;
   }
 
@@ -684,6 +690,9 @@ hr {
 .search-form {
   width: 248px;
   height: 25px;
+}
+
+.search-form-bg {
   background-color: #3c3b3d;
   border: none;
   border-radius: 50px;
@@ -693,9 +702,6 @@ hr {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
-  color: #757575;
-  font-size: 13px;
-  line-height: 15px;
   text-transform: uppercase;
 }
 
@@ -743,9 +749,6 @@ hr {
   .search-form {
     width: 374px;
     height: 25px;
-    background-color: #3c3b3d;
-    border: none;
-    border-radius: 50px;
   }
 }
 .popular-track {

@@ -23,7 +23,9 @@
 .search-form {
   width: 248px;
   height: 25px;
+}
 
+.search-form-bg {
   background-color: $dark;
   border: none;
   border-radius: 50px;
@@ -33,11 +35,6 @@
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
-
-  color: $poisk;
-
-  font-size: 13px;
-  line-height: 15px;
 
   text-transform: uppercase;
 }
@@ -89,9 +86,5 @@
   .search-form {
     width: 374px;
     height: 25px;
-
-    background-color: $dark;
-    border: none;
-    border-radius: 50px;
   }
 }
