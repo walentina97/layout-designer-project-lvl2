@@ -46,7 +46,8 @@
 .btn-border {
   box-sizing: border-box;
 
-  padding-right: 115px;
+  padding-top: 21px;
+  padding-right: 113px;
   padding-left: 115px;
 
   font-size: 16px;
@@ -77,15 +78,15 @@
   text-transform: uppercase;
 }
 
-.padding-btm-200 {
+.padding-btm-190 {
   margin-top: 21px;
   margin-bottom: 0;
 
-  padding-bottom: 180px;
+  padding-bottom: 190px;
 }
 
-.padding-btm-24 {
-  padding-bottom: 24px;
+.padding-btm-40 {
+  padding-bottom: 40px;
 }
 
 .padding-top-64 {
@@ -112,7 +113,7 @@
     line-height: 24px;
   }
 
-  .padding-btm-200 {
+  .padding-btm-190 {
     margin-top: 15px;
   }
 }

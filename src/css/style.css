@@ -226,8 +226,8 @@ body {
 }
 
 .padding-top-btm {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 150px;
+  padding-bottom: 179px;
 }
 
 .subtitle-form {
@@ -240,7 +240,7 @@ body {
   grid-template-rows: 50px;
   grid-template-columns: 273px 273px;
   justify-content: center;
-  padding-top: 16px;
+  padding-top: 12px;
   column-gap: 24px;
 }
 
@@ -267,7 +267,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 21px;
+  padding-top: 25px;
   padding-bottom: 21px;
   font-weight: normal;
   font-family: "Roboto", sans-serif;
@@ -303,9 +303,9 @@ body {
 
 .button-paddings {
   justify-content: left;
-  padding-top: 20px;
+  padding-top: 21px;
   padding-right: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 22px;
   padding-left: 30px;
 }
 
@@ -328,8 +328,8 @@ body {
     display: block;
   }
 
-  .margin-mobil-btm-24 {
-    margin-bottom: 24px;
+  .margin-mobil-btm-20 {
+    margin-bottom: 20px;
   }
 
   .margin-left-24 {
@@ -400,31 +400,31 @@ body {
     text-transform: capitalize;
   }
 
-  .margin-btm-30 {
-    margin-bottom: 30px;
+  .margin-btm-27 {
+    margin-bottom: 27px;
   }
 }
 .btn-link {
   display: inline-block;
   box-sizing: border-box;
-  padding-top: 16px;
+  padding-top: 17px;
   padding-right: 30px;
-  padding-bottom: 16px;
+  padding-bottom: 17px;
   padding-left: 30px;
   border: 1px solid #cacaca;
   border-radius: 5px;
 }
 
-.margin-btm-24 {
-  margin-bottom: 24px;
+.margin-btm-20 {
+  margin-bottom: 25px;
 }
 
 .margin-btn-48 {
   display: grid;
   grid-template-rows: 19px;
-  grid-template-columns: 19px 75px 69px;
+  grid-template-columns: 22px 72px 69px;
   margin-bottom: 48px;
-  column-gap: 16px;
+  column-gap: 12px;
 }
 
 .grid-column-gap {
@@ -470,7 +470,8 @@ body {
 
 .btn-border {
   box-sizing: border-box;
-  padding-right: 115px;
+  padding-top: 21px;
+  padding-right: 113px;
   padding-left: 115px;
   font-size: 16px;
   line-height: 24px;
@@ -496,14 +497,14 @@ body {
   text-transform: uppercase;
 }
 
-.padding-btm-200 {
+.padding-btm-190 {
   margin-top: 21px;
   margin-bottom: 0;
-  padding-bottom: 180px;
+  padding-bottom: 190px;
 }
 
-.padding-btm-24 {
-  padding-bottom: 24px;
+.padding-btm-40 {
+  padding-bottom: 40px;
 }
 
 .padding-top-64 {
@@ -529,7 +530,7 @@ body {
     line-height: 24px;
   }
 
-  .padding-btm-200 {
+  .padding-btm-190 {
     margin-top: 15px;
   }
 }
@@ -584,7 +585,7 @@ hr {
 }
 
 .padding-rem {
-  padding-top: 3rem;
+  padding-top: 59px;
   padding-bottom: 3rem;
 }
 
@@ -608,15 +609,16 @@ hr {
 .flex-column {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .social-networks {
   display: grid;
-  grid-template-rows: 20px;
-  grid-template-columns: 26px 26px 26px 26px;
+  grid-template-rows: 24px;
+  grid-template-columns: 22px 22px 12px 19px;
   margin-bottom: 0px;
   padding-left: 0;
-  column-gap: 24px;
+  column-gap: 26px;
 }
 
 .social-networks li {
@@ -641,13 +643,13 @@ hr {
 @media (min-width: 1240px) {
   .grid-block {
     display: grid;
-    grid-template-columns: 157px 184px 246px 174px;
-    column-gap: 140px;
+    grid-template-columns: 266px 267px 268px 268px;
+    column-gap: 41px;
   }
 
   .grid-starting {
     display: grid;
-    grid-template-columns: 68px 114px 36px 88px 76px;
+    grid-template-columns: 65px 112px 36px 87px 74px;
     column-gap: 15px;
   }
 }
@@ -669,7 +671,7 @@ hr {
 .padding-top-7 {
   margin: 0;
   padding-top: 7px;
-  padding-left: 15px;
+  padding-left: 18px;
 }
 
 .f-size-11 {
@@ -709,7 +711,7 @@ hr {
   .main-navigation {
     display: flex;
     justify-content: space-between;
-    padding-top: 23px;
+    padding-top: 25px;
   }
 
   .container-logo {
@@ -720,7 +722,7 @@ hr {
     display: flex;
     margin: 0;
     padding-top: 7px;
-    padding-left: 88px;
+    padding-left: 90px;
     list-style: none;
   }
 
@@ -729,15 +731,16 @@ hr {
   }
 }
 @media (max-width: 414px) {
-  .main-navigation {
-    padding-top: 30px;
+  .inline-flex {
+    display: inline-flex;
   }
 
-  .padding-top-7 {
-    padding-left: 0;
+  .main-navigation {
+    padding-top: 25px;
   }
 
   .site-navigation {
+    margin-bottom: 16px;
     padding-left: 0;
     list-style: none;
   }
@@ -763,7 +766,7 @@ hr {
 
 .grid-template-rows-columns {
   display: grid;
-  grid-template-rows: 50px;
+  grid-template-rows: 55px;
   grid-template-columns: 551px 551px;
   row-gap: 25px;
   column-gap: 50px;
@@ -781,7 +784,7 @@ hr {
 @media (max-width: 414px) {
   .grid-template-rows-columns {
     display: grid;
-    grid-template-rows: 50px;
+    grid-template-rows: 55px;
     grid-template-columns: 374px;
     row-gap: 25px;
     column-gap: 50px;

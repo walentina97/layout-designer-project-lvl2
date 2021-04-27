@@ -10,7 +10,7 @@
 
 .grid-template-rows-columns {
   display: grid;
-  grid-template-rows: 50px;
+  grid-template-rows: 55px;
   grid-template-columns: 551px 551px;
 
   row-gap: 25px;
@@ -31,7 +31,7 @@
 @media (max-width: 414px) {
   .grid-template-rows-columns {
     display: grid;
-    grid-template-rows: 50px;
+    grid-template-rows: 55px;
     grid-template-columns: 374px;
 
     row-gap: 25px;

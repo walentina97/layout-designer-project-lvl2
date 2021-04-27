@@ -2,7 +2,7 @@
   margin: 0;
 
   padding-top: 7px;
-  padding-left: 15px;
+  padding-left: 18px;
 }
 
 .f-size-11 {
@@ -43,7 +43,7 @@
   .main-navigation {
     display: flex;
     justify-content: space-between;
-    padding-top: 23px;
+    padding-top: 25px;
   }
 
   .container-logo {
@@ -54,7 +54,7 @@
     display: flex;
     margin: 0;
     padding-top: 7px;
-    padding-left: 88px;
+    padding-left: 90px;
 
     list-style: none;
   }
@@ -65,15 +65,17 @@
 }
 
 @media (max-width: 414px) {
-  .main-navigation {
-    padding-top: 30px;
+  .inline-flex {
+    display: inline-flex;
   }
 
-  .padding-top-7 {
-    padding-left: 0;
+  .main-navigation {
+    padding-top: 25px;
   }
 
   .site-navigation {
+    margin-bottom: 16px;
+
     padding-left: 0;
 
     list-style: none;

@@ -48,8 +48,8 @@
     text-transform: capitalize;
   }
 
-  .margin-btm-30 {
-    margin-bottom: 30px;
+  .margin-btm-27 {
+    margin-bottom: 27px;
   }
 }
 
@@ -58,26 +58,26 @@
 
   box-sizing: border-box;
 
-  padding-top: 16px;
+  padding-top: 17px;
   padding-right: 30px;
 
-  padding-bottom: 16px;
+  padding-bottom: 17px;
   padding-left: 30px;
 
   border: 1px solid $dark-gray;
   border-radius: 5px;
 }
 
-.margin-btm-24 {
-  margin-bottom: 24px;
+.margin-btm-20 {
+  margin-bottom: 25px;
 }
 
 .margin-btn-48 {
   display: grid;
   grid-template-rows: 19px;
-  grid-template-columns: 19px 75px 69px;
+  grid-template-columns: 22px 72px 69px;
 
   margin-bottom: 48px;
 
-  column-gap: 16px;
+  column-gap: 12px;
 }

@@ -12,7 +12,7 @@ hr {
 }
 
 .padding-rem {
-  padding-top: 3rem;
+  padding-top: 59px;
   padding-bottom: 3rem;
 }
 
@@ -38,17 +38,18 @@ hr {
 .flex-column {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .social-networks {
   display: grid;
-  grid-template-rows: 20px;
-  grid-template-columns: 26px 26px 26px 26px;
+  grid-template-rows: 24px;
+  grid-template-columns: 22px 22px 12px 19px;
 
   margin-bottom: 0px;
   padding-left: 0;
 
-  column-gap: 24px;
+  column-gap: 26px;
 }
 
 .social-networks li {
@@ -74,14 +75,14 @@ hr {
 @media (min-width: 1240px) {
   .grid-block {
     display: grid;
-    grid-template-columns: 157px 184px 246px 174px;
+    grid-template-columns: 266px 267px 268px 268px;
 
-    column-gap: 140px;
+    column-gap: 41px;
   }
 
   .grid-starting {
     display: grid;
-    grid-template-columns: 68px 114px 36px 88px 76px;
+    grid-template-columns: 65px 112px 36px 87px 74px;
 
     column-gap: 15px;
   }
