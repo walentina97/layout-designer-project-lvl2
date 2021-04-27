@@ -19,7 +19,7 @@ body {
 
 @media (min-width: 1240px) {
   .content {
-    max-width: 1200px;
+    max-width: 1240px;
     margin: auto;
   }
 
@@ -264,7 +264,7 @@ body {
 }
 
 .btn {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   padding-top: 25px;
