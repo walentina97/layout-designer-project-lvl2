@@ -114,9 +114,8 @@ body {
   line-height: 24px;
 }
 
-.padding-top-100 {
-  margin-top: 0;
-  padding-top: 100px;
+.margin-top-100 {
+  margin-top: 100px;
 }
 
 .text-transform-none {
@@ -148,10 +147,6 @@ body {
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-}
-
-.margin-top-100 {
-  margin-top: 100px;
 }
 
 .fans p {
@@ -212,6 +207,11 @@ body {
 }
 
 .margin-btm-48 {
+  margin-top: 100px;
+  margin-bottom: 48px;
+}
+
+.margin-bottom-48 {
   margin-bottom: 48px;
 }
 
@@ -225,9 +225,14 @@ body {
   margin-top: 32px;
 }
 
-.padding-top-btm {
+.padding-top-btm-header {
   padding-top: 150px;
-  padding-bottom: 179px;
+  padding-bottom: 201px;
+}
+
+.padding-top-btm {
+  padding-top: 201px;
+  padding-bottom: 223px;
 }
 
 .subtitle-form {
@@ -298,7 +303,7 @@ body {
 }
 
 .button-link {
-  padding-right: 15px;
+  margin-right: 15px;
 }
 
 .button-paddings {
@@ -497,19 +502,18 @@ body {
   text-transform: uppercase;
 }
 
-.padding-btm-190 {
+.margin-btm-190 {
   margin-top: 21px;
-  margin-bottom: 0;
-  padding-bottom: 190px;
+  margin-bottom: 190px;
 }
 
-.padding-btm-40 {
-  padding-bottom: 40px;
+.margin-btm-40 {
+  margin-bottom: 40px;
 }
 
-.padding-top-64 {
-  padding-top: 64px;
-  padding-bottom: 65px;
+.margin-top-64 {
+  margin-top: 64px;
+  margin-bottom: 65px;
 }
 
 .margin-top-40 {
@@ -530,7 +534,7 @@ body {
     line-height: 24px;
   }
 
-  .padding-btm-190 {
+  .margin-btm-190 {
     margin-top: 15px;
   }
 }
@@ -670,8 +674,8 @@ hr {
 }
 .padding-top-7 {
   margin: 0;
-  padding-top: 7px;
-  padding-left: 18px;
+  margin-top: 7px;
+  margin-left: 18px;
 }
 
 .f-size-11 {
@@ -727,7 +731,7 @@ hr {
   }
 
   .site-navigation li {
-    padding-right: 24px;
+    margin-right: 24px;
   }
 }
 @media (max-width: 414px) {
