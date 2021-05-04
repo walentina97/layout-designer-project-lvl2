@@ -744,6 +744,10 @@ hr {
     display: inline-flex;
   }
 
+  .inline-block {
+    display: inline-block;
+  }
+
   .main-navigation {
     padding-top: 25px;
   }
