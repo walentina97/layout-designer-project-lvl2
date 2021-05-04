@@ -37,15 +37,15 @@
   text-transform: uppercase;
 }
 
+.container-logo {
+  display: flex;
+}
+
 @media (min-width: 1240px) {
   .main-navigation {
     display: flex;
     justify-content: space-between;
     padding-top: 25px;
-  }
-
-  .container-logo {
-    display: flex;
   }
 
   .site-navigation {
