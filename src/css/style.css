@@ -746,10 +746,6 @@ hr {
     display: inline-flex;
   }
 
-  .display-flex {
-    display: flex;
-  }
-
   .inline-block {
     display: inline-block;
   }
