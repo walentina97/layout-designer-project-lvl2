@@ -293,7 +293,7 @@ body {
 }
 
 .button {
-  width: 140px;
+  border: none;
   border-radius: 5px;
 }
 
@@ -330,7 +330,9 @@ body {
   }
 
   .button-artist {
-    display: block;
+    display: grid;
+    grid-template-columns: 200px;
+    column-gap: 1.5rem;
   }
 
   .margin-mobil-btm-20 {
@@ -617,7 +619,7 @@ hr {
 }
 
 .flex-column {
-  display: inline-flex;
+  display: grid;
   flex-direction: column;
   align-items: flex-start;
 }
@@ -742,6 +744,10 @@ hr {
 @media (max-width: 414px) {
   .inline-flex {
     display: inline-flex;
+  }
+
+  .display-flex {
+    display: flex;
   }
 
   .inline-block {
