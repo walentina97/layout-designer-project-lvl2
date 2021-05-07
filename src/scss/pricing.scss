@@ -78,23 +78,25 @@
   text-transform: uppercase;
 }
 
-.margin-btm-190 {
+.margin-btm-180 {
   margin-top: 21px;
-  margin-bottom: 190px;
+  margin-bottom: 180px;
 }
 
-.margin-btm-40 {
-  margin-bottom: 40px;
+.margin-btm-24 {
+  margin-bottom: 24px;
 }
 
 .margin-top-64 {
   margin-top: 64px;
-  margin-bottom: 65px;
+  margin-bottom: 66px;
 }
 
 .margin-top-40 {
   margin-top: 40px;
   margin-bottom: 0;
+
+  padding-bottom: 17px;
 }
 
 @media (max-width: 414px) {
@@ -111,7 +113,8 @@
     line-height: 24px;
   }
 
-  .margin-btm-190 {
-    margin-top: 15px;
+  .margin-btm-180 {
+    margin-top: 18px;
+    margin-bottom: 184px;
   }
 }

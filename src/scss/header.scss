@@ -20,8 +20,8 @@
   margin: 0;
 }
 
-.margin-btm-48 {
-  margin-bottom: 48px;
+.margin-btm-49 {
+  margin-bottom: 49px;
 }
 
 .margin-bottom-48 {
@@ -53,7 +53,6 @@
   grid-template-rows: 50px;
   grid-template-columns: 273px 273px;
   justify-content: center;
-  padding-top: 12px;
 
   column-gap: 24px;
 }
@@ -96,6 +95,11 @@
 
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.padding-btm-0 {
+  padding-top: 24px;
+  padding-bottom: 0px;
 }
 
 .btn-green {
@@ -149,7 +153,7 @@
     padding-bottom: 0px;
   }
 
-  .padding-top-btm {
+  .padding-top-btm-header {
     padding-top: 78px;
     padding-bottom: 200px;
   }
@@ -196,8 +200,8 @@
 
   .name,
   .email {
-    width: 352px;
-    height: 50px;
+    width: 348px;
+    height: 46px;
 
     margin-bottom: 1.5rem;
 

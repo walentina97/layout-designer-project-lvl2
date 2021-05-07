@@ -124,6 +124,10 @@ body {
   margin-top: 0;
 }
 
+.margin-btm-0 {
+  margin-bottom: 0;
+}
+
 .display-block {
   display: block;
 }
@@ -208,8 +212,8 @@ body {
   margin: 0;
 }
 
-.margin-btm-48 {
-  margin-bottom: 48px;
+.margin-btm-49 {
+  margin-bottom: 49px;
 }
 
 .margin-bottom-48 {
@@ -240,7 +244,6 @@ body {
   grid-template-rows: 50px;
   grid-template-columns: 273px 273px;
   justify-content: center;
-  padding-top: 12px;
   column-gap: 24px;
 }
 
@@ -273,6 +276,11 @@ body {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.padding-btm-0 {
+  padding-top: 24px;
+  padding-bottom: 0px;
 }
 
 .btn-green {
@@ -319,7 +327,7 @@ body {
     padding-bottom: 0px;
   }
 
-  .padding-top-btm {
+  .padding-top-btm-header {
     padding-top: 78px;
     padding-bottom: 200px;
   }
@@ -364,8 +372,8 @@ body {
 
   .name,
 .email {
-    width: 352px;
-    height: 50px;
+    width: 348px;
+    height: 46px;
     margin-bottom: 1.5rem;
     padding-left: 22px;
     background-color: transparent;
@@ -373,6 +381,10 @@ body {
   }
 }
 @media (max-width: 414px) {
+  .margin-btm-64 {
+    margin-bottom: 64px;
+  }
+
   .display-grid-columns {
     display: grid;
     grid-template-columns: auto;
@@ -394,7 +406,19 @@ body {
   }
 
   .margin-btm-50 {
-    margin-bottom: 50px;
+    margin-top: 48px;
+    margin-bottom: 0;
+  }
+
+  .news-footer {
+    margin-top: 24px;
+  }
+
+  .margin-btn-48 {
+    display: grid;
+    grid-template-rows: 19px;
+    grid-template-columns: 22px 72px 69px;
+    column-gap: 12px;
   }
 }
 @media (min-width: 1240px) {
@@ -417,6 +441,14 @@ body {
   .margin-btm-27 {
     margin-bottom: 27px;
   }
+
+  .margin-btn-48 {
+    display: grid;
+    grid-template-rows: 19px;
+    grid-template-columns: 22px 72px 69px;
+    margin-bottom: 48px;
+    column-gap: 12px;
+  }
 }
 .btn-link {
   display: inline-block;
@@ -427,18 +459,6 @@ body {
   padding-left: 30px;
   border: 1px solid #cacaca;
   border-radius: 5px;
-}
-
-.margin-btm-20 {
-  margin-bottom: 25px;
-}
-
-.margin-btn-48 {
-  display: grid;
-  grid-template-rows: 19px;
-  grid-template-columns: 22px 72px 69px;
-  margin-bottom: 48px;
-  column-gap: 12px;
 }
 
 .grid-column-gap {
@@ -511,23 +531,24 @@ body {
   text-transform: uppercase;
 }
 
-.margin-btm-190 {
+.margin-btm-180 {
   margin-top: 21px;
-  margin-bottom: 190px;
+  margin-bottom: 180px;
 }
 
-.margin-btm-40 {
-  margin-bottom: 40px;
+.margin-btm-24 {
+  margin-bottom: 24px;
 }
 
 .margin-top-64 {
   margin-top: 64px;
-  margin-bottom: 65px;
+  margin-bottom: 66px;
 }
 
 .margin-top-40 {
   margin-top: 40px;
   margin-bottom: 0;
+  padding-bottom: 17px;
 }
 
 @media (max-width: 414px) {
@@ -543,13 +564,13 @@ body {
     line-height: 24px;
   }
 
-  .margin-btm-190 {
-    margin-top: 15px;
+  .margin-btm-180 {
+    margin-top: 18px;
+    margin-bottom: 184px;
   }
 }
 .mobile-app {
-  margin-bottom: 100px;
-  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .margin-top-btm-48 {
@@ -562,14 +583,10 @@ body {
   column-gap: 144px;
 }
 
-.margin-btm-0 {
-  margin-bottom: 0;
-}
-
 .btn-border-radius {
-  padding-top: 16px;
+  padding-top: 17px;
   padding-right: 40px;
-  padding-bottom: 16px;
+  padding-bottom: 17px;
   padding-left: 40px;
   text-transform: none;
   border: none;
@@ -597,7 +614,7 @@ hr {
 }
 
 .padding-rem {
-  padding-top: 59px;
+  padding-top: 61px;
   padding-bottom: 3rem;
 }
 
@@ -682,8 +699,8 @@ hr {
     margin-top: 30px;
   }
 }
-.padding-top-7 {
-  margin-top: 7px;
+.padding-top-5 {
+  margin-top: 5px;
   margin-left: 18px;
 }
 
@@ -727,6 +744,10 @@ hr {
     padding-top: 25px;
   }
 
+  .inline-table {
+    display: inline-table;
+  }
+
   .container-logo {
     display: flex;
   }
@@ -734,7 +755,7 @@ hr {
   .site-navigation {
     display: flex;
     margin: 0;
-    padding-top: 7px;
+    padding-top: 5px;
     padding-left: 90px;
     list-style: none;
   }
@@ -748,6 +769,10 @@ hr {
     display: inline-flex;
   }
 
+  .display-flex {
+    display: flex;
+  }
+
   .inline-block {
     display: inline-block;
   }
@@ -757,7 +782,8 @@ hr {
   }
 
   .site-navigation {
-    margin-bottom: 16px;
+    margin-top: 17px;
+    margin-bottom: 18px;
     padding-left: 0;
     list-style: none;
   }

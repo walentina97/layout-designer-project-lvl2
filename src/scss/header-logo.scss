@@ -1,5 +1,5 @@
-.padding-top-7 {
-  margin-top: 7px;
+.padding-top-5 {
+  margin-top: 5px;
   margin-left: 18px;
 }
 
@@ -44,6 +44,10 @@
     padding-top: 25px;
   }
 
+  .inline-table {
+    display: inline-table;
+  }
+
   .container-logo {
     display: flex;
   }
@@ -51,7 +55,7 @@
   .site-navigation {
     display: flex;
     margin: 0;
-    padding-top: 7px;
+    padding-top: 5px;
     padding-left: 90px;
 
     list-style: none;
@@ -67,6 +71,10 @@
     display: inline-flex;
   }
 
+  .display-flex {
+    display: flex;
+  }
+
   .inline-block {
     display: inline-block;
   }
@@ -76,7 +84,8 @@
   }
 
   .site-navigation {
-    margin-bottom: 16px;
+    margin-top: 17px;
+    margin-bottom: 18px;
 
     padding-left: 0;
 
