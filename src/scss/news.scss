@@ -11,12 +11,18 @@
   }
 
   .photo {
+    display: block;
+
     width: 374px;
     height: 186px;
   }
 
+  .margin-23 {
+    margin-bottom: 23px;
+  }
+
   .f-size-30 {
-    margin-top: 45px;
+    margin-top: 50px;
     margin-bottom: 0;
 
     font-weight: 400;
@@ -30,10 +36,6 @@
   .margin-btm-50 {
     margin-top: 48px;
     margin-bottom: 0;
-  }
-
-  .news-footer {
-    margin-top: 24px;
   }
 
   .margin-btn-48 {

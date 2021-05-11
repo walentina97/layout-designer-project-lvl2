@@ -1,6 +1,7 @@
 .padding-top-5 {
   margin-top: 5px;
-  margin-left: 18px;
+  margin-bottom: 6px;
+  margin-left: 16px;
 }
 
 .f-size-11 {
@@ -71,6 +72,10 @@
     display: inline-flex;
   }
 
+  .line-height-1 {
+    line-height: 1;
+  }
+
   .display-flex {
     display: flex;
   }
@@ -79,14 +84,16 @@
     display: inline-block;
   }
 
+  .margin-top-btm-17 {
+    margin-top: 17px;
+    margin-bottom: 18px;
+  }
+
   .main-navigation {
     padding-top: 25px;
   }
 
   .site-navigation {
-    margin-top: 17px;
-    margin-bottom: 18px;
-
     padding-left: 0;
 
     list-style: none;

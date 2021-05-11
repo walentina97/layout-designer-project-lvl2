@@ -392,12 +392,17 @@ body {
   }
 
   .photo {
+    display: block;
     width: 374px;
     height: 186px;
   }
 
+  .margin-23 {
+    margin-bottom: 23px;
+  }
+
   .f-size-30 {
-    margin-top: 45px;
+    margin-top: 50px;
     margin-bottom: 0;
     font-weight: 400;
     font-size: 16px;
@@ -408,10 +413,6 @@ body {
   .margin-btm-50 {
     margin-top: 48px;
     margin-bottom: 0;
-  }
-
-  .news-footer {
-    margin-top: 24px;
   }
 
   .margin-btn-48 {
@@ -502,6 +503,11 @@ body {
   line-height: 1em;
 }
 
+.display-flex-justify {
+  display: flex;
+  justify-content: center;
+}
+
 .btn-border {
   box-sizing: border-box;
   padding-top: 21px;
@@ -570,7 +576,7 @@ body {
   }
 }
 .mobile-app {
-  padding-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .margin-top-btm-48 {
@@ -603,7 +609,7 @@ body {
   }
 }
 hr {
-  margin-top: 26px;
+  margin-top: 27px;
   margin-bottom: 8px;
   border-color: #e0e0e0;
   border-top-width: 0;
@@ -645,11 +651,11 @@ hr {
 
 .social-networks {
   display: grid;
-  grid-template-rows: 24px;
-  grid-template-columns: 22px 22px 12px 19px;
+  grid-template-rows: 20px;
+  grid-template-columns: 26px 22px 12px 19px;
   margin-bottom: 0px;
   padding-left: 0;
-  column-gap: 26px;
+  column-gap: 24px;
 }
 
 .social-networks li {
@@ -701,7 +707,8 @@ hr {
 }
 .padding-top-5 {
   margin-top: 5px;
-  margin-left: 18px;
+  margin-bottom: 6px;
+  margin-left: 16px;
 }
 
 .f-size-11 {
@@ -769,6 +776,10 @@ hr {
     display: inline-flex;
   }
 
+  .line-height-1 {
+    line-height: 1;
+  }
+
   .display-flex {
     display: flex;
   }
@@ -777,13 +788,16 @@ hr {
     display: inline-block;
   }
 
+  .margin-top-btm-17 {
+    margin-top: 17px;
+    margin-bottom: 18px;
+  }
+
   .main-navigation {
     padding-top: 25px;
   }
 
   .site-navigation {
-    margin-top: 17px;
-    margin-bottom: 18px;
     padding-left: 0;
     list-style: none;
   }

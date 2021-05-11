@@ -1,5 +1,5 @@
 hr {
-  margin-top: 26px;
+  margin-top: 27px;
   margin-bottom: 8px;
 
   border-color: $gray;
@@ -46,13 +46,11 @@ hr {
 
 .social-networks {
   display: grid;
-  grid-template-rows: 24px;
-  grid-template-columns: 22px 22px 12px 19px;
-
+  grid-template-rows: 20px;
+  grid-template-columns: 26px 22px 12px 19px;
   margin-bottom: 0px;
   padding-left: 0;
-
-  column-gap: 26px;
+  column-gap: 24px;
 }
 
 .social-networks li {
