@@ -547,8 +547,8 @@ body {
 }
 
 .margin-top-64 {
-  margin-top: 64px;
-  margin-bottom: 66px;
+  margin-top: 63px;
+  margin-bottom: 64px;
 }
 
 .margin-top-40 {
@@ -802,7 +802,8 @@ hr {
   }
 
   .site-navigation li {
-    padding: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
   }
 
   .search-form {
