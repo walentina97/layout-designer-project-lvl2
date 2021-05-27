@@ -705,8 +705,6 @@ hr {
   }
 }
 .padding-top-5 {
-  margin-top: 5px;
-  margin-bottom: 6px;
   margin-left: 16px;
 }
 
@@ -773,6 +771,8 @@ hr {
 @media (max-width: 414px) {
   .inline-flex {
     display: inline-flex;
+    margin-bottom: 5px;
+    align-items: center;
   }
 
   .line-height-1 {
@@ -781,6 +781,7 @@ hr {
 
   .display-flex {
     display: flex;
+    flex-direction: column;
   }
 
   .inline-block {
@@ -788,7 +789,6 @@ hr {
   }
 
   .margin-top-btm-17 {
-    margin-top: 15px;
     margin-bottom: 15px;
   }
 
