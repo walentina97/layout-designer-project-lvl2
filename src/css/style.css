@@ -542,7 +542,7 @@ body {
   margin-bottom: 200px;
 }
 
-.margin-btm-24 {
+.padding-btm-40 {
   margin-bottom: 40px;
 }
 
@@ -554,7 +554,6 @@ body {
 .margin-top-40 {
   margin-top: 40px;
   margin-bottom: 0;
-  padding-bottom: 17px;
 }
 
 @media (max-width: 414px) {
