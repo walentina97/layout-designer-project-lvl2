@@ -79,7 +79,9 @@
   .padding-top-5 {
     line-height: 1.5;
 
+    margin-top: 0;
     margin-left: 16px;
+    margin-bottom: 0;
   }
 
   .line-height-1 {
@@ -105,6 +107,8 @@
 
   .site-navigation {
     padding-left: 0;
+
+    line-height: 1.5;
 
     list-style: none;
   }
