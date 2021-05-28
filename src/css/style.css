@@ -240,11 +240,11 @@ body {
 }
 
 .subscription-access {
-  display: grid;
-  grid-template-rows: 50px;
-  grid-template-columns: 273px 273px;
-  justify-content: center;
-  column-gap: 24px;
+  max-width: 570px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .name,
@@ -284,10 +284,9 @@ body {
 }
 
 .btn-green {
+  width: 100%;
   padding-top: 21px;
-  padding-right: 220px;
   padding-bottom: 21px;
-  padding-left: 220px;
   text-transform: uppercase;
   background-color: #34c176;
   border: none;
@@ -344,7 +343,7 @@ body {
   }
 
   .margin-mobil-btm-20 {
-    margin-bottom: 20px;
+    margin-bottom: 24px;
   }
 
   .margin-left-24 {
@@ -611,7 +610,6 @@ hr {
   margin-top: 27px;
   margin-bottom: 8px;
   border-color: #e0e0e0;
-  border-top-width: 0;
 }
 
 .bg-gradient {

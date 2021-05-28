@@ -49,12 +49,12 @@
 }
 
 .subscription-access {
-  display: grid;
-  grid-template-rows: 50px;
-  grid-template-columns: 273px 273px;
-  justify-content: center;
+  max-width: 570px;
+  margin: 0 auto;
 
-  column-gap: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .name,
@@ -103,10 +103,10 @@
 }
 
 .btn-green {
+  width: 100%;
+
   padding-top: 21px;
-  padding-right: 220px;
   padding-bottom: 21px;
-  padding-left: 220px;
 
   text-transform: uppercase;
 
@@ -171,7 +171,7 @@
   }
 
   .margin-mobil-btm-20 {
-    margin-bottom: 20px;
+    margin-bottom: 24px;
   }
 
   .margin-left-24 {
