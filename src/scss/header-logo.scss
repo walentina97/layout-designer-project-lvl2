@@ -1,6 +1,6 @@
 .padding-top-5 {
-  margin-top: 5px;
-  margin-bottom: 6px;
+  line-height: 1.5;
+
   margin-left: 16px;
 }
 
@@ -51,6 +51,7 @@
 
   .container-logo {
     display: flex;
+    align-items: center;
   }
 
   .site-navigation {
@@ -98,12 +99,6 @@
 
     list-style: none;
   }
-
-  .site-navigation li {
-    padding-top: 1px;
-    padding-bottom: 1px;
-  }
-
   .search-form {
     width: 374px;
     height: 25px;

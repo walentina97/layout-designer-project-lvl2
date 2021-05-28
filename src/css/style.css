@@ -703,8 +703,7 @@ hr {
   }
 }
 .padding-top-5 {
-  margin-top: 5px;
-  margin-bottom: 6px;
+  line-height: 1.5;
   margin-left: 16px;
 }
 
@@ -754,6 +753,7 @@ hr {
 
   .container-logo {
     display: flex;
+    align-items: center;
   }
 
   .site-navigation {
@@ -797,11 +797,6 @@ hr {
   .site-navigation {
     padding-left: 0;
     list-style: none;
-  }
-
-  .site-navigation li {
-    padding-top: 1px;
-    padding-bottom: 1px;
   }
 
   .search-form {
