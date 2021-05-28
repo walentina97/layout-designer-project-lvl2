@@ -1,9 +1,3 @@
-.padding-top-5 {
-  line-height: 1.5;
-
-  margin-left: 16px;
-}
-
 .f-size-11 {
   font-weight: bold;
   font-size: 11px;
@@ -39,6 +33,12 @@
 }
 
 @media (min-width: 1240px) {
+  .padding-top-5 {
+    margin-top: 5px;
+    margin-bottom: 6px;
+    margin-left: 16px;
+  }
+
   .main-navigation {
     display: flex;
     justify-content: space-between;
@@ -51,7 +51,6 @@
 
   .container-logo {
     display: flex;
-    align-items: center;
   }
 
   .site-navigation {
@@ -71,6 +70,16 @@
 @media (max-width: 414px) {
   .inline-flex {
     display: inline-flex;
+  }
+
+  .container-logo {
+    align-items: center;
+  }
+
+  .padding-top-5 {
+    line-height: 1.5;
+
+    margin-left: 16px;
   }
 
   .line-height-1 {
