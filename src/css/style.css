@@ -655,6 +655,11 @@ hr {
   column-gap: 24px;
 }
 
+.left-righn-20 {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
 .social-networks li {
   list-style: none;
 }
