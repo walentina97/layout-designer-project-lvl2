@@ -1,5 +1,5 @@
 hr {
-  margin-top: 27px;
+  margin-top: 26px;
   margin-bottom: 8px;
 
   border-color: $gray;
@@ -74,9 +74,7 @@ hr {
 @media (min-width: 1240px) {
   .grid-block {
     display: grid;
-    grid-template-columns: 266px 267px 268px 268px;
-
-    column-gap: 41px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
   .grid-starting {
