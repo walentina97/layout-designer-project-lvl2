@@ -230,7 +230,7 @@ body {
 }
 
 .name-form {
-  width: 570px;
+  max-width: 570px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
