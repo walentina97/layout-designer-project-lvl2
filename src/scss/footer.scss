@@ -78,6 +78,7 @@ hr {
 
 @media (min-width: 1240px) {
   .grid-block {
+    max-width: 1240px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }

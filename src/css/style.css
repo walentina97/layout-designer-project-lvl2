@@ -225,12 +225,10 @@ body {
 }
 
 .padding-top-btm-header {
-  padding-top: 150px;
   padding-bottom: 201px;
 }
 
 .padding-top-btm {
-  padding-top: 201px;
   padding-bottom: 223px;
 }
 
@@ -681,6 +679,7 @@ hr {
 
 @media (min-width: 1240px) {
   .grid-block {
+    max-width: 1240px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
@@ -740,6 +739,17 @@ hr {
 }
 
 @media (min-width: 1240px) {
+  .padding-top-200 {
+    padding-top: 200px;
+  }
+
+  .position-absolute {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25px;
+  }
+
   .padding-top-5 {
     margin-top: 5px;
     margin-bottom: 6px;
@@ -749,7 +759,6 @@ hr {
   .main-navigation {
     display: flex;
     justify-content: space-between;
-    padding-top: 25px;
   }
 
   .container-logo-center {

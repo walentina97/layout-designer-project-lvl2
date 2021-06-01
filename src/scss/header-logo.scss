@@ -33,6 +33,17 @@
 }
 
 @media (min-width: 1240px) {
+  .padding-top-200 {
+    padding-top: 200px;
+  }
+
+  .position-absolute {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25px;
+  }
+
   .padding-top-5 {
     margin-top: 5px;
     margin-bottom: 6px;
@@ -42,7 +53,6 @@
   .main-navigation {
     display: flex;
     justify-content: space-between;
-    padding-top: 25px;
   }
 
   .container-logo-center {
