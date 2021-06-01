@@ -713,7 +713,7 @@ hr {
 }
 
 .search-form {
-  width: 248px;
+  max-width: 570px;
   height: 25px;
 }
 
