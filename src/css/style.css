@@ -443,9 +443,9 @@ body {
 .btn-link {
   display: inline-block;
   box-sizing: border-box;
-  padding-top: 17px;
+  padding-top: 16px;
   padding-right: 30px;
-  padding-bottom: 17px;
+  padding-bottom: 16px;
   padding-left: 30px;
   border: 1px solid #cacaca;
   border-radius: 5px;
@@ -499,8 +499,9 @@ body {
 
 .btn-border {
   box-sizing: border-box;
-  padding-top: 21px;
+  padding-top: 20px;
   padding-right: 113px;
+  padding-bottom: 20px;
   padding-left: 115px;
   font-size: 16px;
   line-height: 24px;
@@ -578,9 +579,9 @@ body {
 }
 
 .btn-border-radius {
-  padding-top: 17px;
+  padding-top: 16px;
   padding-right: 40px;
-  padding-bottom: 17px;
+  padding-bottom: 16px;
   padding-left: 40px;
   text-transform: none;
   border: none;
