@@ -113,7 +113,7 @@
 }
 
 .button {
-  border: none;
+  border: 1px solid transparent;
 
   border-radius: 5px;
 }
@@ -134,6 +134,11 @@
 
 .align-left {
   text-align: left;
+}
+
+.margin-top-48 {
+  margin-top: 48px;
+  margin-bottom: 24px;
 }
 
 @media (max-width: 414px) {
