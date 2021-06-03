@@ -1,8 +1,20 @@
+.padding-top-200 {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .f-size-11 {
   font-weight: bold;
   font-size: 11px;
   line-height: 13px;
   text-transform: uppercase;
+}
+
+.position-absolute {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 25px;
 }
 
 .text-decoration-none {
@@ -33,18 +45,6 @@
 }
 
 @media (min-width: 1240px) {
-  .padding-top-200 {
-    padding-top: 200px;
-    padding-bottom: 200px;
-  }
-
-  .position-absolute {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 25px;
-  }
-
   .padding-top-5 {
     margin-top: 5px;
     margin-bottom: 6px;
