@@ -712,6 +712,10 @@ hr {
   .margin-top-30 {
     margin-top: 30px;
   }
+
+  .social-networks {
+    grid-template-rows: 24px;
+  }
 }
 .padding-top-200 {
   padding-top: 200px;
