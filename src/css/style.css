@@ -512,6 +512,7 @@ body {
 }
 
 .btn-border {
+  width: 100%;
   box-sizing: border-box;
   padding-top: 20px;
   padding-right: 30px;
@@ -542,7 +543,7 @@ body {
 }
 
 .margin-btm-180 {
-  margin-top: 21px;
+  margin-top: 24px;
   margin-bottom: 200px;
 }
 
