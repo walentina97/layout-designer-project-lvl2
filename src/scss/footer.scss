@@ -1,5 +1,5 @@
 hr {
-  margin-top: 26px;
+  margin-top: 24px;
   margin-bottom: 8px;
 
   border-color: $gray;
@@ -88,6 +88,10 @@ hr {
     grid-template-columns: 65px 112px 36px 87px 74px;
 
     column-gap: 15px;
+  }
+  .left-right-20 {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
