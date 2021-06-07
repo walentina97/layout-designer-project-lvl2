@@ -21,8 +21,8 @@ body {
   .content {
     max-width: 1200px;
     margin: auto;
-    padding-left: 20px;
     padding-right: 20px;
+    padding-left: 20px;
   }
 
   .title {
@@ -117,8 +117,8 @@ body {
 }
 
 .capitalize {
-  line-height: 27px;
   font-weight: 700;
+  line-height: 27px;
   text-transform: capitalize;
 }
 
@@ -235,11 +235,11 @@ body {
 }
 
 .name-form {
-  max-width: 570px;
-  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  max-width: 570px;
+  margin: 0 auto;
 }
 
 .name,
@@ -512,8 +512,8 @@ body {
 }
 
 .btn-border {
-  width: 100%;
   box-sizing: border-box;
+  width: 100%;
   padding-top: 20px;
   padding-right: 30px;
   padding-bottom: 20px;
@@ -648,8 +648,8 @@ hr {
   display: grid;
   flex-direction: column;
   align-items: flex-start;
-  list-style: none;
   padding-left: 0px;
+  list-style: none;
 }
 
 .social-networks {
@@ -687,9 +687,9 @@ hr {
 
 @media (min-width: 1240px) {
   .grid-block {
-    max-width: 1240px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1240px;
   }
 
   .grid-starting {
@@ -699,8 +699,8 @@ hr {
   }
 
   .left-right-20 {
-    padding-left: 20px;
     padding-right: 20px;
+    padding-left: 20px;
   }
 }
 @media (max-width: 414px) {
@@ -736,9 +736,9 @@ hr {
 
 .position-absolute {
   position: absolute;
-  left: 0;
-  right: 0;
   top: 25px;
+  right: 0;
+  left: 0;
 }
 
 .text-decoration-none {
@@ -820,8 +820,8 @@ hr {
   .padding-top-5 {
     line-height: 1.5;
     margin-top: 0;
-    margin-left: 16px;
     margin-bottom: 0;
+    margin-left: 16px;
   }
 
   .line-height-1 {

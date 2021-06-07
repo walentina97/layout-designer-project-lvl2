@@ -3,8 +3,8 @@
     max-width: 1200px;
     margin: auto;
 
-    padding-left: 20px;
     padding-right: 20px;
+    padding-left: 20px;
   }
 
   .title {
@@ -103,8 +103,10 @@
 }
 
 .capitalize {
-  line-height: 27px;
   font-weight: 700;
+
+  line-height: 27px;
+
   text-transform: capitalize;
 }
 
