@@ -58,7 +58,7 @@
     justify-content: space-between;
   }
 
-  .container-logo-center {
+  .flex-logo-center {
     display: flex;
   }
 
@@ -66,13 +66,12 @@
     display: inline-table;
   }
 
-  .container-logo {
+  .container-flex {
     display: flex;
   }
 
   .site-navigation {
     display: flex;
-    margin: 0;
     padding-top: 5px;
     padding-left: 90px;
 
@@ -89,7 +88,7 @@
     display: inline-flex;
   }
 
-  .container-logo-center {
+  .flex-logo-center {
     align-items: center;
   }
 
@@ -119,7 +118,7 @@
     display: inline-block;
   }
 
-  .margin-top-btm-17 {
+  .margin-top-btm-15 {
     margin-top: 15px;
     margin-bottom: 15px;
   }
