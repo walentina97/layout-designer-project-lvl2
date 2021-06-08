@@ -34,10 +34,8 @@
   }
 
   .subtitle {
-    font-weight: bold;
     font-size: 18px;
     line-height: 27px;
-    text-transform: uppercase;
   }
 
   .display-grid {
@@ -51,6 +49,11 @@
   .grid-start {
     grid-row-start: 2;
   }
+}
+
+.subtitle {
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .third-title {
@@ -102,6 +105,7 @@
 
 .capitalize {
   font-weight: 700;
+  font-size: 18px;
 
   line-height: 27px;
 
