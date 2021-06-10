@@ -1,6 +1,6 @@
 .grid-column-gap {
   display: grid;
-  grid-template-columns: 366px 366px 366px;
+  grid-template-columns: 1fr 1fr 1fr;
 
   column-gap: 50px;
 }
@@ -86,12 +86,12 @@
   text-transform: uppercase;
 }
 
-.margin-btm-180 {
+.margin-btm-200 {
   margin-top: 24px;
   margin-bottom: 200px;
 }
 
-.padding-btm-40 {
+.margin-btm-40 {
   margin-bottom: 40px;
 }
 
@@ -108,18 +108,17 @@
 @media (max-width: 414px) {
   .grid-column-gap {
     display: grid;
-    grid-template-columns: 374px;
+    grid-template-columns: 1fr;
 
     row-gap: 50px;
   }
 
   .f-size-24 {
-    font-weight: normal;
     font-size: 16px;
     line-height: 24px;
   }
 
-  .margin-btm-180 {
+  .margin-btm-200 {
     margin-top: 15px;
     margin-bottom: 200px;
   }

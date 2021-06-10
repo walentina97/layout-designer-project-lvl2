@@ -50,7 +50,7 @@
 @media (min-width: 1240px) {
   .grid-gap {
     display: grid;
-    grid-template-columns: 575px 575px;
+    grid-template-columns: 1fr 1fr;
 
     margin-bottom: 65px;
 

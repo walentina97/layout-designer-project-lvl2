@@ -10,8 +10,10 @@
   <body>
     <header>
       <nav class="main-navigation content position-absolute">
-        <div class="container-flex flex-direction-column">
-          <div class="text-decoration-none flex-logo-center inline-flex">
+        <div class="display-flex-desktop flex-direction-column">
+          <div
+            class="text-decoration-none flex-logo-center display-flex-desktop inline-flex"
+          >
             <img
               src="images/logo.svg"
               width="24"
@@ -20,7 +22,7 @@
             />
             <p class="padding-top-5 f-size-11 color-white">Music Box</p>
           </div>
-          <div class="container-flex display-flex margin-top-btm-15">
+          <div class="display-flex-desktop display-flex margin-top-btm-15">
             <ul class="site-navigation mrgn-0 f-size-11 inline-block">
               <li>
                 <a
@@ -106,12 +108,10 @@
           Формы подписки
         </h2>
         <div class="grid-column-gap">
-          <div class="pricing-item bg-free">
-            <h3 class="third-title color-white margin-btm-180 f-size-24">
-              Бесплатная
-            </h3>
+          <section class="pricing-item bg-free">
+            <h3 class="color-white margin-btm-200 f-size-24">Бесплатная</h3>
             <p
-              class="pricing-value color-white padding-btm-40 mrgn-0 f-size-64 display-flex-justify"
+              class="pricing-value color-white margin-btm-40 f-size-64 display-flex-justify"
             >
               0<sup class="f-size-32">руб.</sup>
             </p>
@@ -122,13 +122,11 @@
               Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей
               коллекции музыки. Присутствует реклама
             </p>
-          </div>
-          <div class="pricing-item bg-standart">
-            <h3 class="third-title color-white margin-btm-180 f-size-24">
-              Стандартная
-            </h3>
+          </section>
+          <section class="pricing-item bg-standart">
+            <h3 class="color-white margin-btm-200 f-size-24">Стандартная</h3>
             <p
-              class="pricing-value color-white padding-btm-40 mrgn-0 f-size-64 display-flex-justify"
+              class="pricing-value color-white margin-btm-40 f-size-64 display-flex-justify"
             >
               250<sup class="f-size-32">руб.</sup>
             </p>
@@ -139,13 +137,11 @@
               Оплата в месяц. Стандартный тариф предоставляет доступ ко всей
               коллекции музыки в среднем качестве
             </p>
-          </div>
-          <div class="pricing-item bg-premium">
-            <h3 class="third-title color-white margin-btm-180 f-size-24">
-              Премиум
-            </h3>
+          </section>
+          <section class="pricing-item bg-premium">
+            <h3 class="color-white margin-btm-200 f-size-24">Премиум</h3>
             <p
-              class="pricing-value color-white padding-btm-40 mrgn-0 f-size-64 display-flex-justify"
+              class="pricing-value color-white margin-btm-40 f-size-64 display-flex-justify"
             >
               500<sup class="f-size-32">руб.</sup>
             </p>
@@ -156,7 +152,7 @@
               Оплата в месяц. Премиум тариф предоставляет доступ ко всей
               коллекции музыки в высоком качестве
             </p>
-          </div>
+          </section>
         </div>
         <p
           class="text-bottom color-white f-size-16 align-center margin-top-40 display-block"
