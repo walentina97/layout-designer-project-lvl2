@@ -109,7 +109,6 @@ body {
 .f-size-12 {
   font-size: 12.8px;
   line-height: 19.2px;
-  text-transform: uppercase;
 }
 
 .adwantages {
@@ -142,6 +141,19 @@ body {
 
 .padding-top-100 {
   padding-top: 100px;
+}
+
+.f-size-16 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.margin-btm-49 {
+  margin-bottom: 49px;
+}
+
+.decoration-none {
+  text-decoration: none;
 }
 
 .similar-artists {
@@ -219,10 +231,6 @@ body {
   margin: 0;
 }
 
-.margin-btm-49 {
-  margin-bottom: 49px;
-}
-
 .margin-bottom-48 {
   margin-bottom: 48px;
 }
@@ -281,9 +289,6 @@ body {
 
 .btn-green {
   width: 100%;
-  padding-top: 21px;
-  padding-bottom: 21px;
-  text-transform: uppercase;
   background-color: #34c176;
   border: none;
   border-radius: 5px;
@@ -452,7 +457,6 @@ body {
   }
 }
 .btn-link {
-  display: inline-block;
   box-sizing: border-box;
   padding-top: 16px;
   padding-right: 30px;
@@ -540,7 +544,6 @@ body {
 }
 
 .margin-btm-200 {
-  margin-top: 24px;
   margin-bottom: 200px;
 }
 
@@ -548,7 +551,7 @@ body {
   margin-bottom: 40px;
 }
 
-.margin-top-64 {
+.margin-top-63 {
   margin-top: 63px;
   margin-bottom: 64px;
 }
@@ -572,7 +575,6 @@ body {
 
   .margin-btm-200 {
     margin-top: 15px;
-    margin-bottom: 200px;
   }
 }
 .mobile-app {
@@ -627,19 +629,6 @@ hr {
   margin-bottom: 16px;
 }
 
-.decoration-none {
-  text-decoration: none;
-}
-
-.f-size-16 {
-  font-weight: normal;
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  line-height: 24px;
-  text-transform: none;
-}
-
 .flex-column {
   display: grid;
   flex-direction: column;
@@ -655,11 +644,6 @@ hr {
   margin-bottom: 0;
   padding-left: 0;
   column-gap: 24px;
-}
-
-.left-righn-20 {
-  padding-right: 20px;
-  padding-left: 20px;
 }
 
 .social-networks li {
