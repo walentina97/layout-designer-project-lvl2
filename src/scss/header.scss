@@ -66,30 +66,16 @@
   color: $white;
 }
 
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
-  padding-top: 25px;
-  padding-bottom: 21px;
-
-  font-weight: normal;
-
-  font-family: "Roboto", sans-serif;
-
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
 .padding-btm-0 {
   padding-top: 24px;
   padding-bottom: 0;
 }
 
-.btn-green {
+.width-100 {
   width: 100%;
+}
 
+.btn-green {
   background-color: $green;
 
   border: none;

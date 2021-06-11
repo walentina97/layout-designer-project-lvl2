@@ -34,7 +34,6 @@ body {
 
   .subtitle {
     font-size: 38px;
-    line-height: 57px;
   }
 }
 @media (max-width: 414px) {
@@ -102,6 +101,18 @@ body {
   background-color: #95390c;
 }
 
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 21px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 .align-center {
   text-align: center;
 }
@@ -111,9 +122,9 @@ body {
   line-height: 19.2px;
 }
 
-.adwantages {
-  font-size: 16px;
-  line-height: 24px;
+.display-flex-justify {
+  display: flex;
+  justify-content: center;
 }
 
 .capitalize {
@@ -270,25 +281,16 @@ body {
   color: #fff;
 }
 
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 25px;
-  padding-bottom: 21px;
-  font-weight: normal;
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
 .padding-btm-0 {
   padding-top: 24px;
   padding-bottom: 0;
 }
 
-.btn-green {
+.width-100 {
   width: 100%;
+}
+
+.btn-green {
   background-color: #34c176;
   border: none;
   border-radius: 5px;
@@ -507,11 +509,6 @@ body {
   line-height: 1em;
 }
 
-.display-flex-justify {
-  display: flex;
-  justify-content: center;
-}
-
 .btn-border {
   box-sizing: border-box;
   width: 100%;
@@ -581,13 +578,13 @@ body {
   margin-bottom: 100px;
 }
 
-.margin-top-btm-48 {
+.margin-btm-48 {
   margin-bottom: 48px;
 }
 
 .grid-content {
   display: grid;
-  grid-template-columns: 600px 333px;
+  grid-template-columns: 1fr 1fr;
   column-gap: 144px;
 }
 
