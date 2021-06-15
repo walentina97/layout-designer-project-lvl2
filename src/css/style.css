@@ -156,7 +156,6 @@ body {
 
 .f-size-16 {
   font-size: 16px;
-  line-height: 24px;
 }
 
 .margin-btm-49 {
@@ -198,7 +197,7 @@ body {
 
   .display-grid {
     display: grid;
-    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-columns: repeat(4, min-content);
     column-gap: 50px;
     row-gap: 25px;
   }
@@ -298,7 +297,7 @@ body {
 
 .button-artist {
   display: grid;
-  grid-template-columns: 200px 200px;
+  grid-template-columns: repeat(2, min-content);
   column-gap: 1.5rem;
 }
 
@@ -312,15 +311,12 @@ body {
 }
 
 .button-paddings {
+  width: 200px;
   justify-content: left;
   padding-top: 20px;
   padding-right: 30px;
   padding-bottom: 20px;
   padding-left: 30px;
-}
-
-.align-left {
-  text-align: left;
 }
 
 .margin-top-48 {
@@ -346,7 +342,7 @@ body {
 
   .button-artist {
     display: grid;
-    grid-template-columns: 200px;
+    grid-template-columns: 1fr;
     column-gap: 1.5rem;
   }
 
@@ -425,7 +421,7 @@ body {
   .margin-btn-48 {
     display: grid;
     grid-template-rows: 19px;
-    grid-template-columns: 22px 72px 69px;
+    grid-template-columns: repeat(3, max-content);
     column-gap: 12px;
   }
 }
@@ -453,7 +449,7 @@ body {
   .margin-btn-48 {
     display: grid;
     grid-template-rows: 19px;
-    grid-template-columns: 22px 72px 69px;
+    grid-template-columns: repeat(3, max-content);
     margin-bottom: 48px;
     column-gap: 12px;
   }
@@ -636,7 +632,7 @@ hr {
 .social-networks {
   display: grid;
   grid-template-rows: 20px;
-  grid-template-columns: 26px 22px 12px 19px;
+  grid-template-columns: repeat(4, min-content);
   margin-bottom: 0;
   padding-left: 0;
   column-gap: 24px;
@@ -670,7 +666,7 @@ hr {
 
   .grid-starting {
     display: grid;
-    grid-template-columns: 65px 112px 36px 87px 74px;
+    grid-template-columns: repeat(5, min-content);
     column-gap: 15px;
   }
 
@@ -854,7 +850,7 @@ hr {
   .grid-template-rows-columns {
     display: grid;
     grid-template-rows: 55px;
-    grid-template-columns: 374px;
+    grid-template-columns: 1fr;
     row-gap: 25px;
     column-gap: 50px;
   }

@@ -41,8 +41,7 @@
   .margin-btn-48 {
     display: grid;
     grid-template-rows: 19px;
-    grid-template-columns: 22px 72px 69px;
-
+    grid-template-columns: repeat(3, max-content);
     column-gap: 12px;
   }
 }
@@ -74,8 +73,7 @@
   .margin-btn-48 {
     display: grid;
     grid-template-rows: 19px;
-    grid-template-columns: 22px 72px 69px;
-
+    grid-template-columns: repeat(3, max-content);
     margin-bottom: 48px;
 
     column-gap: 12px;

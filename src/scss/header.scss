@@ -84,7 +84,7 @@
 
 .button-artist {
   display: grid;
-  grid-template-columns: 200px 200px;
+  grid-template-columns: repeat(2, min-content);
 
   column-gap: 1.5rem;
 }
@@ -100,6 +100,8 @@
 }
 
 .button-paddings {
+  width: 200px;
+
   justify-content: left;
 
   padding-top: 20px;
@@ -107,10 +109,6 @@
 
   padding-bottom: 20px;
   padding-left: 30px;
-}
-
-.align-left {
-  text-align: left;
 }
 
 .margin-top-48 {
@@ -136,7 +134,7 @@
 
   .button-artist {
     display: grid;
-    grid-template-columns: 200px;
+    grid-template-columns: 1fr;
 
     column-gap: 1.5rem;
   }

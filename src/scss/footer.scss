@@ -31,7 +31,7 @@ hr {
 .social-networks {
   display: grid;
   grid-template-rows: 20px;
-  grid-template-columns: 26px 22px 12px 19px;
+  grid-template-columns: repeat(4, min-content);
 
   margin-bottom: 0;
 
@@ -70,8 +70,7 @@ hr {
 
   .grid-starting {
     display: grid;
-    grid-template-columns: 65px 112px 36px 87px 74px;
-
+    grid-template-columns: repeat(5, min-content);
     column-gap: 15px;
   }
 
