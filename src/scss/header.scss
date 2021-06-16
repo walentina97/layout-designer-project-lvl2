@@ -77,9 +77,6 @@
 
 .btn-green {
   background-color: $green;
-
-  border: none;
-  border-radius: 5px;
 }
 
 .button-artist {
@@ -87,12 +84,6 @@
   grid-template-columns: repeat(2, min-content);
 
   column-gap: 1.5rem;
-}
-
-.button {
-  border: 1px solid transparent;
-
-  border-radius: 5px;
 }
 
 .button-link {
@@ -103,15 +94,9 @@
   width: 200px;
 
   justify-content: left;
-
-  padding-top: 20px;
-  padding-right: 30px;
-
-  padding-bottom: 20px;
-  padding-left: 30px;
 }
 
-.margin-top-48 {
+.margin-top-btm-48 {
   margin-top: 48px;
   margin-bottom: 24px;
 }
@@ -127,11 +112,6 @@
     padding-bottom: 200px;
   }
 
-  .padding-top-btm-224 {
-    padding-top: 55px;
-    padding-bottom: 224px;
-  }
-
   .button-artist {
     display: grid;
     grid-template-columns: 1fr;
@@ -139,7 +119,7 @@
     column-gap: 1.5rem;
   }
 
-  .margin-mobil-btm-20 {
+  .margin-mobil-btm-24 {
     margin-bottom: 24px;
   }
 
@@ -162,9 +142,6 @@
 
   .btn-green {
     width: 374px;
-
-    padding-right: 0;
-    padding-left: 0;
   }
 
   .name,

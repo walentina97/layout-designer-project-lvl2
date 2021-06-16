@@ -1,4 +1,4 @@
-.padding-top-200 {
+.padding-top-btm-200 {
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -17,6 +17,10 @@
 
   right: 0;
   left: 0;
+}
+
+.display-flex {
+  display: flex;
 }
 
 .text-decoration-none {
@@ -47,7 +51,7 @@
 }
 
 @media (min-width: 1240px) {
-  .padding-top-5 {
+  .margin-top-5 {
     margin-top: 5px;
     margin-bottom: 6px;
     margin-left: 16px;
@@ -60,10 +64,6 @@
 
   .inline-table {
     display: inline-table;
-  }
-
-  .display-flex-desktop {
-    display: flex;
   }
 
   .site-navigation {
@@ -93,7 +93,7 @@
     flex-direction: column;
   }
 
-  .padding-top-5 {
+  .margin-top-5 {
     margin-top: 0;
 
     line-height: 1.5;
@@ -104,10 +104,6 @@
 
   .line-height-1 {
     line-height: 1;
-  }
-
-  .display-flex {
-    display: flex;
   }
 
   .inline-block {

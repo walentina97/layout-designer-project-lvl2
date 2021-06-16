@@ -105,12 +105,16 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding-top: 25px;
-  padding-bottom: 21px;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
   font-weight: normal;
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 5px;
 }
 
 .align-center {
@@ -291,19 +295,12 @@ body {
 
 .btn-green {
   background-color: #34c176;
-  border: none;
-  border-radius: 5px;
 }
 
 .button-artist {
   display: grid;
   grid-template-columns: repeat(2, min-content);
   column-gap: 1.5rem;
-}
-
-.button {
-  border: 1px solid transparent;
-  border-radius: 5px;
 }
 
 .button-link {
@@ -313,13 +310,9 @@ body {
 .button-paddings {
   width: 200px;
   justify-content: left;
-  padding-top: 20px;
-  padding-right: 30px;
-  padding-bottom: 20px;
-  padding-left: 30px;
 }
 
-.margin-top-48 {
+.margin-top-btm-48 {
   margin-top: 48px;
   margin-bottom: 24px;
 }
@@ -335,18 +328,13 @@ body {
     padding-bottom: 200px;
   }
 
-  .padding-top-btm-224 {
-    padding-top: 55px;
-    padding-bottom: 224px;
-  }
-
   .button-artist {
     display: grid;
     grid-template-columns: 1fr;
     column-gap: 1.5rem;
   }
 
-  .margin-mobil-btm-20 {
+  .margin-mobil-btm-24 {
     margin-bottom: 24px;
   }
 
@@ -369,8 +357,6 @@ body {
 
   .btn-green {
     width: 374px;
-    padding-right: 0;
-    padding-left: 0;
   }
 
   .name,
@@ -694,7 +680,7 @@ hr {
     grid-template-rows: 24px;
   }
 }
-.padding-top-200 {
+.padding-top-btm-200 {
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -711,6 +697,10 @@ hr {
   top: 25px;
   right: 0;
   left: 0;
+}
+
+.display-flex {
+  display: flex;
 }
 
 .text-decoration-none {
@@ -740,7 +730,7 @@ hr {
 }
 
 @media (min-width: 1240px) {
-  .padding-top-5 {
+  .margin-top-5 {
     margin-top: 5px;
     margin-bottom: 6px;
     margin-left: 16px;
@@ -753,10 +743,6 @@ hr {
 
   .inline-table {
     display: inline-table;
-  }
-
-  .display-flex-desktop {
-    display: flex;
   }
 
   .site-navigation {
@@ -784,7 +770,7 @@ hr {
     flex-direction: column;
   }
 
-  .padding-top-5 {
+  .margin-top-5 {
     margin-top: 0;
     line-height: 1.5;
     margin-bottom: 0;
@@ -793,10 +779,6 @@ hr {
 
   .line-height-1 {
     line-height: 1;
-  }
-
-  .display-flex {
-    display: flex;
   }
 
   .inline-block {
