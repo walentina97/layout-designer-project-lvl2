@@ -1,7 +1,3 @@
-.popular-track {
-  display: flex;
-}
-
 .track-info {
   display: flex;
   flex-grow: 1;
@@ -10,7 +6,6 @@
 
 .grid-template-rows-columns {
   display: grid;
-  grid-template-rows: 55px;
   grid-template-columns: 1fr 1fr;
 
   row-gap: 25px;

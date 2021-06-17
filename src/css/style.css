@@ -66,7 +66,6 @@ body {
   }
 }
 .subtitle {
-  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -123,7 +122,10 @@ body {
 
 .f-size-12 {
   font-size: 12.8px;
-  line-height: 19.2px;
+}
+
+.display-flex {
+  display: flex;
 }
 
 .display-flex-justify {
@@ -132,9 +134,7 @@ body {
 }
 
 .capitalize {
-  font-weight: 700;
   font-size: 18px;
-  line-height: 27px;
   text-transform: capitalize;
 }
 
@@ -355,10 +355,6 @@ body {
     display: block;
   }
 
-  .btn-green {
-    width: 374px;
-  }
-
   .name,
 .email {
     width: 348px;
@@ -399,7 +395,7 @@ body {
     text-transform: capitalize;
   }
 
-  .margin-btm-50 {
+  .margin-top-48 {
     margin-top: 48px;
     margin-bottom: 0;
   }
@@ -699,10 +695,6 @@ hr {
   left: 0;
 }
 
-.display-flex {
-  display: flex;
-}
-
 .text-decoration-none {
   text-decoration: none;
 }
@@ -801,10 +793,6 @@ hr {
     height: 25px;
   }
 }
-.popular-track {
-  display: flex;
-}
-
 .track-info {
   display: flex;
   flex-grow: 1;
@@ -813,7 +801,6 @@ hr {
 
 .grid-template-rows-columns {
   display: grid;
-  grid-template-rows: 55px;
   grid-template-columns: 1fr 1fr;
   row-gap: 25px;
   column-gap: 50px;

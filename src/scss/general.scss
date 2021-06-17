@@ -51,7 +51,6 @@
 }
 
 .subtitle {
-  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -115,7 +114,10 @@
 
 .f-size-12 {
   font-size: 12.8px;
-  line-height: 19.2px;
+}
+
+.display-flex {
+  display: flex;
 }
 
 .display-flex-justify {
@@ -124,10 +126,7 @@
 }
 
 .capitalize {
-  font-weight: 700;
   font-size: 18px;
-
-  line-height: 27px;
 
   text-transform: capitalize;
 }
