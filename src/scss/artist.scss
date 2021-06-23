@@ -1,21 +1,5 @@
-.similar-artists {
-  margin-bottom: 100px;
-}
-
 .right-5 {
   padding-right: 5px;
-}
-
-.similar-info {
-  text-align: center;
-}
-
-.similar-info-sp {
-  font-size: 16px;
-
-  line-height: 24px;
-
-  text-align: center;
 }
 
 .fans p {
@@ -40,7 +24,7 @@
 
   .grid-columns {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .flex-center {
@@ -51,8 +35,7 @@
 
 @media (max-width: 414px) {
   .images {
-    width: 137px;
-    height: 137px;
+    max-width: 100%;
   }
 
   .display-block-similar {

@@ -1,14 +1,10 @@
-.mobile-app {
-  margin-bottom: 100px;
-}
-
 .margin-btm-48 {
   margin-bottom: 48px;
 }
 
 .grid-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .btn-border-radius {

@@ -55,9 +55,7 @@
 }
 
 .third-title {
-  font-weight: bold;
   font-size: 18px;
-  line-height: 27px;
   text-transform: uppercase;
 }
 
@@ -106,6 +104,10 @@
   border: 1px solid transparent;
 
   border-radius: 5px;
+}
+
+.margin-btm-100 {
+  margin-bottom: 100px;
 }
 
 .align-center {
