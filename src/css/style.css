@@ -206,7 +206,8 @@ body {
 }
 @media (max-width: 414px) {
   .images {
-    max-width: 100%;
+    width: 137px;
+    height: 137px;
   }
 
   .display-block-similar {
